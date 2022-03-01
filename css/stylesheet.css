@@ -101,8 +101,28 @@ body {
 
 /***** SKILLS *****/
 
-.heading-tertiary {
+.heading-secondary {
     text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.skills-block {
+    background-color: rgb(161, 129, 103, 0.3);
+   
+}
+
+.skills {
+    display: flex;
+    gap: 72px;
+}
+
+.skill-box {
+    background-color: #fff;
+    justify-items: center;
+    border: 1px solid seagreen;
+    height: 150px;
+    border-radius: 10%;
+    
 }
 
 .skill-logo {
@@ -114,3 +134,37 @@ body {
     list-style-type: none;
     line-height: 2;
 }
+
+.contentblock {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .contentblock ul {
+    padding-left: 20px;
+  }
+  
+  .content-section {
+    display: flex;
+  }
+
+  .heading-tertiary { 
+    font-weight: 700;
+   }
+
+   .heading-tertiary-date {
+    width: 320px;
+    flex-shrink: 0;
+  }
+
+  .heading-secondary-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    border-bottom: 2px solid #cfbda4;
+  }
+
