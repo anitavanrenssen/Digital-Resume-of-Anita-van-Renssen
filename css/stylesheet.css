@@ -1,5 +1,7 @@
 /* STYLING CHOICES */
 
+/* main color - #6a7e70 */
+
 * {
     box-sizing: border-box;
 }
@@ -46,6 +48,7 @@ body {
 }
 
 .header-hello {
+    font-size: 24px;
     margin-bottom: 0;
 }
 
@@ -56,12 +59,13 @@ body {
 }
 
 .header-intro {
+    font-size: 24px;
     margin: 24px 0 32px 0;
-    max-width: 400px;
+    max-width: 500px;
 }
 
 .btn {
-    background-color: #555;
+    background-color: #6a7e70;
 }
 
 .social-media {
@@ -94,6 +98,10 @@ body {
 
 /***** ABOUT *****/
 
+.heading-about {
+    max-width: 650px;
+}
+
 .signature-img {
     filter: opacity(80%);
 }
@@ -107,8 +115,7 @@ body {
 }
 
 .skills-block {
-    background-color: rgb(161, 129, 103, 0.3);
-   
+    background-color: rgb(106, 126, 112, 0.1);
 }
 
 .skills {
@@ -119,10 +126,9 @@ body {
 .skill-box {
     background-color: #fff;
     justify-items: center;
-    border: 1px solid seagreen;
+    border: 1px solid #6a7e70;
     height: 150px;
     border-radius: 10%;
-    
 }
 
 .skill-logo {
@@ -134,6 +140,8 @@ body {
     list-style-type: none;
     line-height: 2;
 }
+
+/***** EXPERIENCE AND EDUCATION *****/
 
 .contentblock {
     display: flex;
