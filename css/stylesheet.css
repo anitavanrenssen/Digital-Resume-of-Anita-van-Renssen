@@ -27,12 +27,11 @@ body {
 /***** HEADER *****/
 
 .header {
-    background-image: url(/images/coverphoto.jpg);
+    background-image: url(/images/coverphoto2.jpg);
     background-color: #333;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment:fixed;
     width: 100%;
     height: 100vh;
     position: relative;
@@ -51,8 +50,8 @@ body {
 }
 
 .header-name {
-    font-size: 92px;
-    max-width: 520px;
+    font-size: 108px;
+    max-width: 620px;
     margin-bottom: 0;
 }
 
@@ -62,7 +61,7 @@ body {
 }
 
 .btn {
-    background-color: #A18167;
+    background-color: #555;
 }
 
 .social-media {
@@ -104,6 +103,7 @@ body {
 .heading-secondary {
     text-transform: uppercase;
     margin-bottom: 32px;
+    letter-spacing: 4px;
 }
 
 .skills-block {
