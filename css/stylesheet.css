@@ -39,7 +39,6 @@ body {
     height: 100vh;
     position: relative;
     color: #444;
-    z-index: 5;
 }
 
 .header-text {
@@ -55,8 +54,8 @@ body {
 }
 
 .header-name {
-    font-size: 108px;
-    max-width: 620px;
+    font-size: 92px;
+    max-width: 520px;
     margin-bottom: 0;
 }
 
@@ -66,7 +65,7 @@ body {
     max-width: 500px;
 }
 
-.btn {
+.btn-override {
     background-color: #6a7e70;
 }
 
@@ -100,10 +99,6 @@ body {
 
 /***** ABOUT *****/
 
-.about-block {
-    z-index: -1;
-}
-
 .heading-about {
     max-width: 650px;
 }
@@ -131,18 +126,23 @@ body {
 
 .skill-box {
     background-color: #fff;
-    border: 1px solid #6a7e70;
+    /* border: 1px solid #6a7e70; */
     height: 160px;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 10%);
     /* width: 150px; */
 }
 
 .skill-logo {
     width: 64px;
-    filter: opacity(65%);
+    filter: opacity(60%);
+}
+
+.skill-name {
+    filter: opacity(80%);  
 }
 
 .skill-content {
-    padding: 30px 0 30px 0;
+    padding: 32px 0 32px 0;
 }
 
 .skill-list {
@@ -150,7 +150,15 @@ body {
     line-height: 2;
 }
 
+.icon-checkmark {
+    color: #6a7e70;
+}
+
 /***** EXPERIENCE AND EDUCATION *****/
+
+.education-block {
+    background-color: rgb(106, 126, 112, 0.1);
+}
 
 .contentblock {
     display: flex;
@@ -185,3 +193,30 @@ body {
     border-bottom: 2px solid #cfbda4;
   }
 
+  /***** CONTACT *****/
+
+  .card {
+      background-color: rgba(106, 126, 112, 0.8);
+      border: none !important;
+      color: #2a322d;
+      box-shadow: 0 12px 24px rgb(0 0 0 / 20%);
+  }
+
+  .card-title {
+      font-size: 36px;
+  }
+
+  .contact-img {
+      background-size: cover;
+  }
+
+  .form-label {
+      font-size: 16px;
+  }
+
+  .btn-contact {
+      background-color: #2a322d; 
+      padding: 8px 20px 8px 20px !important;
+      font-weight: 500;
+      letter-spacing: 1px;
+  }

@@ -44,10 +44,10 @@
                 <a class="nav-link" href="#experience">Experience</a>
                 <a class="nav-link" href="#education">Education</a>
                 <a class="nav-link" href="#">Me</a>
-                <button type="button" class="btn">
+                <button type="button" class="btn btn-override">
                   <a
                     class="nav-link nav-link-btn-override link-color-override"
-                    href="#"
+                    href="#contact"
                     >Get in touch</a
                   >
                 </button>
@@ -64,7 +64,7 @@
           An aspiring Front End Web Developer based in the Northern Suburbs of
           Cape Town
         </p>
-        <button type="button" class="btn text-light">
+        <button type="button" class="btn btn-override text-light">
           <a
             class="nav-link nav-link-btn-override link-color-override"
             href="#about"
@@ -144,70 +144,113 @@
         <section class="skills justify-content-center">
           <div class="row g-0">
             <div class="skill-box col-md-3 align-self-center me-5 mb-5">
-              <div class="text-center skill-content">
+              <div class="skill-content text-center">
                 <img class="skill-logo" src="/images/html-5-logo.png" />
-                <p class="m-0">HTML</p>
+                <p class="skill-name pt-2">HTML</p>
               </div>
             </div>
-            <div class="skill-box col-md-3 align-self-center me-5 mb-5">
-              <div class="text-center align-items-center">
+            <div class="skill-box col-md-3 me-5 mb-5">
+              <div class="skill-content text-center align-items-center">
                 <img class="skill-logo" src="/images/css-3-logo.png" />
-                <p>CSS</p>
+                <p class="skill-name pt-2">CSS</p>
               </div>
             </div>
-            <div class="skill-box col-md-3 align-self-center mb-5">
-              <div class="text-center">
+            <div class="skill-box col-md-3 mb-5">
+              <div class="skill-content text-center">
                 <img class="skill-logo" src="/images/bootstrap-logo.png" />
-                <p>Bootstrap</p>
+                <p class="skill-name pt-2">Bootstrap</p>
               </div>
             </div>
-            <div class="skill-box col-md-3 align-self-center me-5">
-              <div class="text-center ">
-                <img class="skill-logo" src="/images/adobe-lightroom-logo.png" />
-                <p>Lightroom</p>
-              </div>
-            </div>
-            <div class="skill-box col-md-3 align-self-center me-5">
-              <div class="text-center">
+            <div class="skill-box col-md-3 me-5">
+              <div class="skill-content text-center">
                 <img
                   class="skill-logo"
-                  src="/images/adobe-illustrator-logo.png"/>
-                <p>Illustrator</p>
+                  src="/images/adobe-lightroom-logo.png"
+                />
+                <p class="skill-name pt-2">Lightroom</p>
               </div>
             </div>
-            <div class="skill-box col-md-3 align-self-center">
-              <div class="text-center">
+            <div class="skill-box col-md-3 me-5">
+              <div class="skill-content text-center">
+                <img
+                  class="skill-logo"
+                  src="/images/adobe-illustrator-logo.png"
+                />
+                <p class="skill-name pt-2">Illustrator</p>
+              </div>
+            </div>
+            <div class="skill-box col-md-3">
+              <div class="skill-content text-center">
                 <img class="skill-logo" src="/images/adobe-indesign-logo.png" />
-                <p>InDesign</p>
+                <p class="skill-name pt-2">InDesign</p>
               </div>
             </div>
           </div>
 
           <div>
             <ul class="skill-list">
-              <li><ion-icon name="checkmark-outline"></ion-icon>Afrikaans</li>
-              <li><ion-icon name="checkmark-outline"></ion-icon>English</li>
               <li>
-                <ion-icon name="checkmark-outline"></ion-icon>Communicator
-              </li>
-              <li><ion-icon name="checkmark-outline"></ion-icon>Listener</li>
-              <li>
-                <ion-icon name="checkmark-outline"></ion-icon>Organizational
-                skills
+                <ion-icon
+                  class="icon-checkmark"
+                  name="checkmark-outline"
+                ></ion-icon
+                >Afrikaans
               </li>
               <li>
-                <ion-icon name="checkmark-outline"></ion-icon>Problem solver
+                <ion-icon
+                  class="icon-checkmark"
+                  name="checkmark-outline"
+                ></ion-icon
+                >English
               </li>
               <li>
-                <ion-icon name="checkmark-outline"></ion-icon>Detail oriented
+                <ion-icon
+                  class="icon-checkmark"
+                  name="checkmark-outline"
+                ></ion-icon
+                >Communicator
               </li>
               <li>
-                <ion-icon name="checkmark-outline"></ion-icon>Good teamwork
-                ability
+                <ion-icon
+                  class="icon-checkmark"
+                  name="checkmark-outline"
+                ></ion-icon
+                >Listener
               </li>
               <li>
-                <ion-icon name="checkmark-outline"></ion-icon>Quick continuous
-                learner
+                <ion-icon
+                  class="icon-checkmark"
+                  name="checkmark-outline"
+                ></ion-icon
+                >Organizational skills
+              </li>
+              <li>
+                <ion-icon
+                  class="icon-checkmark"
+                  name="checkmark-outline"
+                ></ion-icon
+                >Problem solver
+              </li>
+              <li>
+                <ion-icon
+                  class="icon-checkmark"
+                  name="checkmark-outline"
+                ></ion-icon
+                >Detail oriented
+              </li>
+              <li>
+                <ion-icon
+                  class="icon-checkmark"
+                  name="checkmark-outline"
+                ></ion-icon
+                >Good teamwork ability
+              </li>
+              <li>
+                <ion-icon
+                  class="icon-checkmark"
+                  name="checkmark-outline"
+                ></ion-icon
+                >Quick continuous learner
               </li>
             </ul>
           </div>
@@ -410,112 +453,193 @@
         </section>
       </article>
 
-      <article class="contentblock mt-5 pt-5" id="education">
-        <section class="heading-secondary-icon">
-          <h4 class="heading-secondary">Education</h4>
-        </section>
+      <article class="education-block">
+        <section class="contentblock mt-5 pt-5" id="education">
+          <section class="heading-secondary-icon">
+            <h4 class="heading-secondary">Education</h4>
+          </section>
 
-        <section class="content-section color">
-          <div class="heading-tertiary-date">
-            <p class="heading-tertiary">CodeSpace Academy</p>
-            <p>Feb 2022 - Mar 2022</p>
-          </div>
+          <section class="content-section color">
+            <div class="heading-tertiary-date">
+              <p class="heading-tertiary">CodeSpace Academy</p>
+              <p>Feb 2022 - Mar 2022</p>
+            </div>
 
-          <div class="content-text">
-            <p class="heading-tertiary">Web Design Certificate</p>
-            <p>
-              The course included HTML and CSS with a focus on making well
-              designed responsive websites easily using Bootstrap, and is finally deployed on GitHub.
-            </p>
-            <p class="text-muted">
-              <ion-icon name="location-sharp"></ion-icon>Online |
-              <ion-icon name="link-sharp"></ion-icon
-              ><a href="https://www.codespace.co.za/" target="_blank"
-                >https://www.codespace.co.za</a
-              >
-            </p>
-          </div>
-        </section>
+            <div class="content-text">
+              <p class="heading-tertiary">Web Design Certificate</p>
+              <p>
+                The course included HTML and CSS with a focus on making well
+                designed responsive websites easily using Bootstrap, and is
+                finally deployed on GitHub.
+              </p>
+              <p class="text-muted">
+                <ion-icon name="location-sharp"></ion-icon>Online |
+                <ion-icon name="link-sharp"></ion-icon
+                ><a href="https://www.codespace.co.za/" target="_blank"
+                  >https://www.codespace.co.za</a
+                >
+              </p>
+            </div>
+          </section>
 
-        <section class="content-section">
-          <div class="heading-tertiary-date">
-            <p class="heading-tertiary">Udemy</p>
-            <p>Nov 2021 - Jan 2022</p>
-          </div>
+          <section class="content-section">
+            <div class="heading-tertiary-date">
+              <p class="heading-tertiary">Udemy</p>
+              <p>Nov 2021 - Jan 2022</p>
+            </div>
 
-          <div class="content-text">
-            <p class="heading-tertiary">
-              Modern HTML5, CSS3 and Responsive Web Design
-            </p>
-            <p>
-              An online code-along video course which covered the building of
-              modern real-world responsive websites with the use of HTML and
-              CSS. It also included the use of Flexbox and CSS Grid.
-            </p>
-            <p class="text-muted">
-              <ion-icon name="location-sharp"></ion-icon>Online |
-              <ion-icon name="link-sharp"></ion-icon
-              ><a
-                href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/"
-                target="_blank"
-                >https://www.udemy.com</a
-              >
-            </p>
-          </div>
-        </section>
+            <div class="content-text">
+              <p class="heading-tertiary">
+                Modern HTML5, CSS3 and Responsive Web Design
+              </p>
+              <p>
+                An online code-along video course which covered the building of
+                modern real-world responsive websites with the use of HTML and
+                CSS. It also included the use of Flexbox and CSS Grid.
+              </p>
+              <p class="text-muted">
+                <ion-icon name="location-sharp"></ion-icon>Online |
+                <ion-icon name="link-sharp"></ion-icon
+                ><a
+                  href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/"
+                  target="_blank"
+                  >https://www.udemy.com</a
+                >
+              </p>
+            </div>
+          </section>
 
-        <section class="content-section color">
-          <div class="heading-tertiary-date">
-            <p class="heading-tertiary">University of Cape Town</p>
-            <p>Jan 2019 - Apr 2019</p>
-          </div>
+          <section class="content-section color">
+            <div class="heading-tertiary-date">
+              <p class="heading-tertiary">University of Cape Town</p>
+              <p>Jan 2019 - Apr 2019</p>
+            </div>
 
-          <div class="content-text">
-            <p class="heading-tertiary">Graphic Design Certificate</p>
+            <div class="content-text">
+              <p class="heading-tertiary">Graphic Design Certificate</p>
 
-            <p>
-              10 week short course through GetSmarter which covered
-              industry-aligned skills for print and digital media design, with
-              the use of Adobe Illustrator.
-            </p>
-            <p class="text-muted"><ion-icon name="location-sharp"></ion-icon>Online</p>
-          </div>
-        </section>
+              <p>
+                10 week short course through GetSmarter which covered
+                industry-aligned skills for print and digital media design, with
+                the use of Adobe Illustrator.
+              </p>
+              <p class="text-muted">
+                <ion-icon name="location-sharp"></ion-icon>Online
+              </p>
+            </div>
+          </section>
 
-        <section class="content-section">
-          <div class="heading-tertiary-date">
-            <p class="heading-tertiary">University of Pretoria</p>
-            <p>Jan 2012 - Nov 2016</p>
-          </div>
+          <section class="content-section">
+            <div class="heading-tertiary-date">
+              <p class="heading-tertiary">University of Pretoria</p>
+              <p>Jan 2012 - Nov 2016</p>
+            </div>
 
-          <div class="content-text">
-            <p class="heading-tertiary">Bachelor of Dental Surgery Degree</p>
-            <p>
-              Distinctions in Community Dentistry and in the main module,
-              Odontology. Comprised of the subjects Basic Restorative Dentistry,
-              Endodontics, Paedodontics, Preventative Dentistry and Dental
-              Materials.
-            </p>
-            <p class="text-muted"><ion-icon name="location-sharp"></ion-icon>Pretoria</p>
-          </div>
-        </section>
+            <div class="content-text">
+              <p class="heading-tertiary">Bachelor of Dental Surgery Degree</p>
+              <p>
+                Distinctions in Community Dentistry and in the main module,
+                Odontology. Comprised of the subjects Basic Restorative
+                Dentistry, Endodontics, Paedodontics, Preventative Dentistry and
+                Dental Materials.
+              </p>
+              <p class="text-muted">
+                <ion-icon name="location-sharp"></ion-icon>Pretoria
+              </p>
+            </div>
+          </section>
 
-        <section class="content-section">
-          <div class="heading-tertiary-date">
-            <p class="heading-tertiary">Hoërskool Oos-Moot</p>
-            <p>Jan 2007 - Nov 2011</p>
-          </div>
+          <section class="content-section">
+            <div class="heading-tertiary-date">
+              <p class="heading-tertiary">Hoërskool Oos-Moot</p>
+              <p>Jan 2007 - Nov 2011</p>
+            </div>
 
-          <div class="content-text">
-            <p class="heading-tertiary">Matric Certificate</p>
-            <p>
-              Distinctions in Physical Sciences, Biological Sciences, Math,
-              Business Studies, Afrikaans, English and Life Orientation.
-            </p>
-            <p class="text-muted"><ion-icon name="location-sharp"></ion-icon>Pretoria</p>
-          </div>
+            <div class="content-text">
+              <p class="heading-tertiary">Matric Certificate</p>
+              <p>
+                Distinctions in Physical Sciences, Biological Sciences, Math,
+                Business Studies, Afrikaans, English and Life Orientation.
+              </p>
+              <p class="text-muted">
+                <ion-icon name="location-sharp"></ion-icon>Pretoria
+              </p>
+            </div>
+          </section>
         </section>
       </article>
+
+      <div
+        class="card mb-3 mx-auto mt-5"
+        id="contact"
+        style="max-width: 1100px"
+      >
+        <div class="row g-0 d-flex flex-row-reverse">
+          <div class="col-md-4">
+            <img
+              src="/images/profilephoto2.jpg"
+              class="contact-img img-fluid rounded-end"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8 px-5 py-4">
+            <div class="card-body">
+              <h2 class="card-title text-center mb-4 pt-3">I would love to hear from you!</h2>
+
+              <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputName" class="form-label">Full Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputName"
+                    placeholder="John Smith"
+                    required
+                  />
+                </div>
+
+                <div class="col-md-6">
+                  <label for="inputSurname" class="form-label">Surname</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputSurname"
+                    placeholder="Smith"
+                    required
+                  />
+                </div>
+
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="me@example.com" required/>
+                </div>
+
+                <div class="col-md-6">
+                  <label for="inputSubject" class="form-label"
+                    >Subject</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputSubject"
+                    placeholder="RE: Job application"
+                    required
+                  />
+                </div>
+
+                <div class="col-12">
+                  <label for="inputMessage" class="form-label">Message</label>
+                  <textarea class="form-control" id="inputMessage" rows="2" placeholder="Type your message here" required></textarea>
+                </div>
+
+                <div class="col-12 text-center mt-5">
+                  <button type="submit" class="btn btn-contact text-light">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
     <script
