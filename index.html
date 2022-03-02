@@ -13,14 +13,13 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" type="text/css" href="/css/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="/css/queries.css" />
   </head>
 
   <body>
     <header class="header">
       <aside>
-        <nav
-          class="navbar navbar-expand-lg sticky-top navbar-light bg-transparent"
-        >
+        <nav class="navbar navbar-expand-md navbar-light bg-transparent p-3">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">AvR</a>
             <button
@@ -43,7 +42,7 @@
                 <a class="nav-link" href="#skills">Skills</a>
                 <a class="nav-link" href="#experience">Experience</a>
                 <a class="nav-link" href="#education">Education</a>
-                <a class="nav-link" href="#">Me</a>
+                <!-- <a class="nav-link" href="#">Me</a> -->
                 <button type="button" class="btn btn-override">
                   <a
                     class="nav-link nav-link-btn-override link-color-override"
@@ -108,20 +107,26 @@
 
     <main>
       <article class="about-block container mt-5" id="about">
-        <section class="row align-items-center">
-          <div class="col-4 text-center my-5">
-            <img
-              class="profile-img w-75"
-              src="/images/profilephoto.jpg"
-              alt="photo of Anita van Renssen"
-            />
+        <section class="about-section row align-items-center">
+          <div class="col-md-4 text-center my-md-5 my-4">
+            <picture>
+              <source
+                media="(max-width: 767px)"
+                srcset="images/profilephoto-medium.jpg"
+              />
+              <img
+                class="profile-img"
+                src="images/profilephoto.jpg"
+                alt="Photo of Anita van Renssen"
+              />
+            </picture>
           </div>
 
-          <div class="col-8 my-5 align-self-center">
+          <div class="col-md-8 my-md-5 align-self-center">
             <h2 class="heading-about mb-4">
               Career changing from healthcare to tech and not looking back
             </h2>
-            <p class="me-5">
+            <p class="me-md-5">
               I am a firm believer of the words of Steve Jobs: "The only way to
               do great work is to love what you do." I decided on a career
               change to make my love for aesthetic and technical design part of
@@ -141,27 +146,33 @@
 
       <article class="skills-block container-fluid mt-5 py-5" id="skills">
         <h4 class="heading-secondary text-center">skills</h4>
-        <section class="skills justify-content-center">
-          <div class="row g-0">
-            <div class="skill-box col-md-3 align-self-center me-5 mb-5">
+        <section class="skills justify-content-center m-sm-5">
+          <div class="row gx-sm-5">
+            <div
+              class="skill-box col-lg-3 col-sm-4 me-sm-4 me-xl-5 me-lg-4 mb-xl-5 mb-lg-2"
+            >
               <div class="skill-content text-center">
                 <img class="skill-logo" src="/images/html-5-logo.png" />
                 <p class="skill-name pt-2">HTML</p>
               </div>
             </div>
-            <div class="skill-box col-md-3 me-5 mb-5">
+            <div
+              class="skill-box col-lg-3 col-sm-4 me-sm-4 me-xl-5 me-lg-4 mb-xl-5 mb-lg-2"
+            >
               <div class="skill-content text-center align-items-center">
                 <img class="skill-logo" src="/images/css-3-logo.png" />
                 <p class="skill-name pt-2">CSS</p>
               </div>
             </div>
-            <div class="skill-box col-md-3 mb-5">
+            <div
+              class="skill-box col-lg-3 col-sm-4 me-sm-4 mb-xl-5 mb-xl-5 mb-lg-2"
+            >
               <div class="skill-content text-center">
                 <img class="skill-logo" src="/images/bootstrap-logo.png" />
                 <p class="skill-name pt-2">Bootstrap</p>
               </div>
             </div>
-            <div class="skill-box col-md-3 me-5">
+            <div class="skill-box col-lg-3 col-sm-4 me-sm-4 me-xl-5 me-lg-4">
               <div class="skill-content text-center">
                 <img
                   class="skill-logo"
@@ -170,7 +181,7 @@
                 <p class="skill-name pt-2">Lightroom</p>
               </div>
             </div>
-            <div class="skill-box col-md-3 me-5">
+            <div class="skill-box col-lg-3 col-sm-4 me-sm-4 me-xl-5 me-lg-4">
               <div class="skill-content text-center">
                 <img
                   class="skill-logo"
@@ -179,7 +190,7 @@
                 <p class="skill-name pt-2">Illustrator</p>
               </div>
             </div>
-            <div class="skill-box col-md-3">
+            <div class="skill-box col-lg-3 col-sm-4 me-sm-4">
               <div class="skill-content text-center">
                 <img class="skill-logo" src="/images/adobe-indesign-logo.png" />
                 <p class="skill-name pt-2">InDesign</p>
@@ -262,7 +273,7 @@
           <h4 class="heading-secondary">Experience</h4>
         </section>
 
-        <section class="content-section color">
+        <section class="content-section-experience color">
           <div class="heading-tertiary-date">
             <p class="heading-tertiary">Tshemba Foundation</p>
             <p>Jun 2021 - Jul 2021</p>
@@ -292,7 +303,7 @@
           </div>
         </section>
 
-        <section class="content-section">
+        <section class="content-section-experience">
           <div class="heading-tertiary-date">
             <p class="heading-tertiary">Dr. Chantel Bouwer</p>
             <p>Feb 2019 - May 2021</p>
@@ -323,7 +334,7 @@
           </div>
         </section>
 
-        <section class="content-section color">
+        <section class="content-section-experience color">
           <div class="heading-tertiary-date">
             <p class="heading-tertiary">Freelance</p>
             <p>Feb 2017 - Nov 2019</p>
@@ -345,7 +356,7 @@
           </div>
         </section>
 
-        <section class="content-section">
+        <section class="content-section-experience">
           <div class="heading-tertiary-date">
             <p class="heading-tertiary">Vrye Gereformeerde Kerke</p>
             <p>Jan 2017 - Nov 2019</p>
@@ -371,7 +382,7 @@
           </div>
         </section>
 
-        <section class="content-section">
+        <section class="content-section-experience">
           <div class="heading-tertiary-date">
             <p class="heading-tertiary">McGyver Dental</p>
             <p>Jan 2018 - Dec 2018</p>
@@ -395,7 +406,7 @@
           </div>
         </section>
 
-        <section class="content-section">
+        <section class="content-section-experience">
           <div class="heading-tertiary-date">
             <p class="heading-tertiary">Shongwe Hospital</p>
             <p>Jan 2017 - Dec 2017</p>
@@ -423,7 +434,7 @@
           </div>
         </section>
 
-        <section class="content-section">
+        <section class="content-section-experience">
           <div class="heading-tertiary-date">
             <p class="heading-tertiary">Phelophepa Health Train</p>
             <p>May 2016</p>
@@ -570,21 +581,23 @@
       </article>
 
       <div
-        class="card mb-3 mx-auto mt-5"
+        class="card card-override mb-3 mx-auto mt-5"
         id="contact"
         style="max-width: 1100px"
       >
         <div class="row g-0 d-flex flex-row-reverse">
-          <div class="col-md-4">
+          <div class="contact-img-block col-md-4">
             <img
-              src="images/profilephoto4.jpg"
               class="contact-img img-fluid rounded-end"
-              alt="..."
+              src="/images/profilephoto4.jpg"
+              alt="Photo of Anita van Renssen"
             />
           </div>
           <div class="col-md-8 px-5 py-4">
             <div class="card-body">
-              <h2 class="card-title text-center mb-4 pt-3">I would love to hear from you!</h2>
+              <h2 class="card-title text-center mb-4 pt-3">
+                I would love to hear from you!
+              </h2>
 
               <form class="row g-3">
                 <div class="col-md-6">
@@ -610,14 +623,20 @@
                 </div>
 
                 <div class="col-md-6">
-                  <label for="inputEmail4" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="inputEmail4" placeholder="me@example.com" required/>
+                  <label for="inputEmail4" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="inputEmail4"
+                    placeholder="me@example.com"
+                    required
+                  />
                 </div>
 
                 <div class="col-md-6">
-                  <label for="inputSubject" class="form-label"
-                    >Subject</label
-                  >
+                  <label for="inputSubject" class="form-label">Subject</label>
                   <input
                     type="text"
                     class="form-control"
@@ -629,11 +648,19 @@
 
                 <div class="col-12">
                   <label for="inputMessage" class="form-label">Message</label>
-                  <textarea class="form-control" id="inputMessage" rows="2" placeholder="Type your message here" required></textarea>
+                  <textarea
+                    class="form-control"
+                    id="inputMessage"
+                    rows="2"
+                    placeholder="Type your message here"
+                    required
+                  ></textarea>
                 </div>
 
                 <div class="col-12 text-center mt-5">
-                  <button type="submit" class="btn btn-contact text-light">Send Message</button>
+                  <button type="submit" class="btn btn-contact text-light">
+                    Send Message
+                  </button>
                 </div>
               </form>
             </div>

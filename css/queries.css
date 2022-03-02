@@ -1,0 +1,88 @@
+
+/* MEDIUM DEVICES */
+
+@media (max-width: 991px) {
+
+    .nav-link {
+    font-size: 14px;
+    }
+
+    .header-name {
+        font-size: 74px;
+        max-width: 420px;
+    }
+
+    .header-hello, .header-intro {
+        font-size: 20px;
+        max-width: 400px;
+    }
+
+    .heading-about {
+        max-width: 560px;
+    }
+
+    .card {
+        max-width: 800px !important;
+    }
+}
+
+/* SMALL DEVICES */
+
+@media (max-width: 767px) {
+
+    .header {
+        background-position: 80% 75%;
+    }
+
+    .header-name {
+        font-size: 54px;
+        max-width: 320px;
+    }
+
+    .header-hello, .header-intro {
+        font-size: 18px;
+        max-width: 310px;
+    }
+
+    .heading-about {
+        max-width: 440px;
+    }
+
+    .profile-img {
+        width: 40%;
+    }
+
+    .contentblock {
+        max-width: 600px;
+    }
+
+    .heading-tertiary-date {
+        width: 270px;
+    }
+
+    .content-section-experience {
+        display: block;
+    }
+
+}
+
+/* EXTRA SMALL DEVICES (PORTRAIT TABLETS/ LARGE PHONES) */
+
+@media (max-width: 575px) {
+
+    .profile-img {
+        width: 50%;
+    }
+
+
+    .about-section {
+        max-width: 450px;
+        text-align: center;
+    }
+
+    .heading-about {
+        max-width: 400px;
+    }
+
+
+}
