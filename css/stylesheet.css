@@ -9,6 +9,7 @@
 body {
     font-size: 20px;
     color: #333;
+    /* background-color: #cfbda4b2; */
 }
 
 /***** NAVIGATION *****/
@@ -38,6 +39,7 @@ body {
     height: 100vh;
     position: relative;
     color: #444;
+    z-index: 5;
 }
 
 .header-text {
@@ -98,6 +100,10 @@ body {
 
 /***** ABOUT *****/
 
+.about-block {
+    z-index: -1;
+}
+
 .heading-about {
     max-width: 650px;
 }
@@ -120,20 +126,23 @@ body {
 
 .skills {
     display: flex;
-    gap: 72px;
+    /* gap: 72px; */
 }
 
 .skill-box {
     background-color: #fff;
-    justify-items: center;
     border: 1px solid #6a7e70;
-    height: 150px;
-    border-radius: 10%;
+    height: 160px;
+    /* width: 150px; */
 }
 
 .skill-logo {
     width: 64px;
     filter: opacity(65%);
+}
+
+.skill-content {
+    padding: 30px 0 30px 0;
 }
 
 .skill-list {
