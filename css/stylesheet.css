@@ -30,11 +30,11 @@ body {
 /***** HEADER *****/
 
 .header {
-    background-image: url(/images/coverphoto2.jpg);
+    background-image: url(/images/coverphoto.jpg);
     background-color: #333;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 100% 75%;
     width: 100%;
     height: 100vh;
     position: relative;
@@ -74,7 +74,7 @@ body {
     flex-direction: column;
     position: absolute;
     right: 3%;
-    bottom: 3%;
+    bottom: 6%;
 }
 
 .social-link:link,
@@ -100,7 +100,8 @@ body {
 /***** ABOUT *****/
 
 .heading-about {
-    max-width: 650px;
+    max-width: 640px;
+    line-height: 1.4;
 }
 
 .signature-img {
@@ -171,6 +172,12 @@ body {
   .contentblock ul {
     padding-left: 20px;
   }
+
+  .contentblock a {
+      color: #777;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+  }
   
   .content-section {
     display: flex;
@@ -219,4 +226,10 @@ body {
       padding: 8px 20px 8px 20px !important;
       font-weight: 500;
       letter-spacing: 1px;
+  }
+
+  /***** RESPONSIVE DESIGN *****/
+
+  @media (max-width: 992px) {
+
   }
