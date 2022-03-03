@@ -132,6 +132,15 @@
         font-size: 16px;
         max-width: 270px;
     }
+
+    .skills {
+        display: block;
+        text-align: center;
+    }
+
+    .skill-list {
+        margin-top: 64px;
+    }
 }
 
     @media (max-width: 663px) {
@@ -150,6 +159,10 @@
 /* EXTRA SMALL DEVICES (PORTRAIT TABLETS/ LARGE PHONES) */
 
 @media (max-width: 575px) {
+
+    body {
+        font-size: 16px;
+    }
 
     .header {
         background-image: url(/images/coverphoto-small.jpg);
@@ -178,11 +191,6 @@
         display: none;
     }
 
-    .skills {
-        display: block;
-        text-align: center;
-    }
-
     .skill-list {
         margin-top: 32px;
     }
@@ -197,3 +205,4 @@
 }
     
 }
+
