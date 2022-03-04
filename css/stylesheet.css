@@ -9,7 +9,7 @@
 body {
     font-size: 20px;
     color: #333;
-    /* background-color: #cfbda4b2; */
+    position: relative;
 }
 
 /***** NAVIGATION *****/
@@ -72,6 +72,11 @@ justify-content: end;
 
 .btn-override {
     background-color: #6a7e70;
+    padding: 6px 16px 6px 16px;
+}
+
+.btn-override:hover {
+    background-color: #5f7165;
 }
 
 .social-media {
@@ -79,7 +84,7 @@ justify-content: end;
     flex-direction: column;
     position: absolute;
     right: 3%;
-    bottom: 6%;
+    bottom: 7%;
 }
 
 .social-link:link,
@@ -94,7 +99,7 @@ justify-content: end;
 .social-link:active {
   animation-name: hoverchange;
   animation-duration: .5s;
-  animation-fill-mode: forwards ;
+  animation-fill-mode: forwards;
 }
 
 @keyframes hoverchange {
@@ -110,6 +115,11 @@ justify-content: end;
 
 .header-name-hidden {
     padding-bottom: 12px;
+}
+
+.social-media-hidden {
+    display: none;
+    text-align: center;
 }
 
 /***** ABOUT *****/
@@ -172,6 +182,7 @@ justify-content: end;
 
 .icon-checkmark {
     color: #6a7e70;
+    padding-right: 12px;
 }
 
 /***** EXPERIENCE AND EDUCATION *****/
@@ -216,7 +227,14 @@ justify-content: end;
     align-items: center;
     justify-content: center;
     gap: 24px;
-    border-bottom: 2px solid #cfbda4;
+    border-bottom: 1px solid #cfbda4;
+  }
+
+  .content-text-muted {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 16px;
   }
 
   /***** CONTACT *****/
@@ -228,6 +246,7 @@ justify-content: end;
       box-shadow: 0 12px 24px rgb(0 0 0 / 20%);
       margin-bottom: 64px !important;
       overflow: hidden;
+      border-radius: 0 5px 5px 5px;
   }
 
   .card-title {
@@ -240,7 +259,7 @@ justify-content: end;
   }
 
   .btn-contact {
-      background-color: #2a322d; 
+      background-color: #353f38; 
       padding: 8px 20px 8px 20px !important;
       font-weight: 500;
       letter-spacing: 1px;
@@ -249,6 +268,45 @@ justify-content: end;
   .contact-img-block {
     background-image: url("/images/coffee.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: 60%;
   }
 
+  .contact-section {
+      display: flex;
+      justify-content: center;
+      align-items:flex-start;
+  }
+
+  .contacts {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .contact-link-first {
+      border-radius: 5% 0 0 0;
+  }
+
+  .contact-link-last {
+      border-radius: 0 0 0 5%;
+  }
+
+  .contact-link:link,
+.contact-link:visited {
+  text-decoration: none;
+  font-size: 24px;
+  color: #fff;
+  background-color: rgba(106, 126, 112, 0.8);
+  padding: 12px 16px 12px 16px;
+}
+
+.contact-link:hover,
+.contact-link:active {
+  animation-name: contactchange;
+  animation-duration: .3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes contactchange {
+    from {color: #fff;}
+    to {color:#353f38;}
+}
