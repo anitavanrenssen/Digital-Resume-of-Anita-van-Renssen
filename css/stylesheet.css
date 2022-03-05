@@ -239,7 +239,8 @@ justify-content: end;
   /***** THIS IS ME *****/
 
   .me-block {
-      max-width: 900px;
+      max-width: 1000px;
+      padding: 48px;
   }
 
   .me-text {
@@ -253,6 +254,7 @@ justify-content: end;
   .carousel-control-prev-override {
       padding-right: 108px;
   }
+
 
   /***** CONTACT *****/
 

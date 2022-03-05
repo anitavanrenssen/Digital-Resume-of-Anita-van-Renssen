@@ -47,6 +47,14 @@
     .card {
         max-width: 800px !important;
     }
+
+    .carousel-control-next-override {
+        padding-left: 90px;
+    }
+  
+    .carousel-control-prev-override {
+        padding-right: 90px;
+    }
 }
 
 @media (max-width: 943px) {
@@ -71,6 +79,14 @@
 
     .header-hello, .header-intro {
         max-width: 360px;
+    }
+
+    .carousel-control-next-override {
+        padding-left: 70px;
+    }
+  
+    .carousel-control-prev-override {
+        padding-right: 70px;
     }
 }
     
@@ -161,6 +177,14 @@
         .header-hello, .header-intro {
             max-width: 220px;
         }
+
+        .carousel-control-next-override {
+            padding-left: 40px;
+        }
+      
+        .carousel-control-prev-override {
+            padding-right: 40px;
+        }
     }
 
 /* EXTRA SMALL DEVICES (PORTRAIT TABLETS/ LARGE PHONES) */
@@ -214,6 +238,18 @@
     padding: 0 32px 0 32px;
     
 }
+}
+
+@media (max-width: 440px) {
+
+    .carousel-control-next-override {
+        padding-left: 20px;
+    }
+  
+    .carousel-control-prev-override {
+        padding-right: 20px;
+    }
+    
 }
 
 @media (max-width: 400px) {
