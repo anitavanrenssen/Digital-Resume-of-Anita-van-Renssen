@@ -139,9 +139,9 @@ justify-content: end;
 
 /***** SKILLS *****/
 
-.heading-secondary {
+.heading-secondary-skills {
     text-transform: uppercase;
-    margin-bottom: 18px;
+    padding-bottom: 16px;
     letter-spacing: 4px;
 }
 
@@ -222,11 +222,10 @@ justify-content: end;
     flex-shrink: 0;
   }
 
-  .heading-secondary-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
+  .heading-secondary {
+    text-transform: uppercase;
+    padding-bottom: 16px;
+    letter-spacing: 4px;
     border-bottom: 1px solid #cfbda4;
   }
 
@@ -237,6 +236,24 @@ justify-content: end;
       margin-bottom: 16px;
   }
 
+  /***** THIS IS ME *****/
+
+  .me-block {
+      max-width: 900px;
+  }
+
+  .me-text {
+      padding: 52px 0 0 0;
+  }
+
+  .carousel-control-next-override {
+      padding-left: 108px;
+  }
+
+  .carousel-control-prev-override {
+      padding-right: 108px;
+  }
+
   /***** CONTACT *****/
 
   .card-override {
@@ -244,7 +261,7 @@ justify-content: end;
       border: none !important;
       color: #2a322d;
       box-shadow: 0 12px 24px rgb(0 0 0 / 20%);
-      margin-bottom: 64px !important;
+      margin-bottom: 108px !important;
       overflow: hidden;
       border-radius: 0 5px 5px 5px;
   }
