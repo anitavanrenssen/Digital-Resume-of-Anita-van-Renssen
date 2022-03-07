@@ -135,12 +135,21 @@
         
     }
 
-    .heading-tertiary-date {
-        width: 270px;
-    }
-
     .content-section-experience {
         display: block;
+    }
+
+    .contact-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacts {
+        display: inline;
+    }
+
+    .contact-link {
+        border-radius: 5%;
     }
 
 }
