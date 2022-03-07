@@ -244,6 +244,7 @@ justify-content: end;
   }
 
   .me-text {
+      max-width: 900px;
       padding: 52px 0 0 0;
   }
 
