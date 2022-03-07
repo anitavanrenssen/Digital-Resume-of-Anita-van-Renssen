@@ -41,9 +41,9 @@
         max-width: 400px;
     }
 
-    .heading-about {
+    /* .heading-about {
         margin: 0 44px 0 44px;
-    }
+    } */
 
     .contentblock {
         padding: 0 32px 0 32px;
@@ -95,7 +95,7 @@
         padding-right: 70px;
     }
 
-    .skills {
+    .skills-section {
         display: block;
         text-align: center;
     }
@@ -150,9 +150,6 @@
         
     }
 
-    .content-section-experience {
-        display: block;
-    }
 
     .card-override {
         margin-top: 15px !important;
@@ -223,7 +220,7 @@
         height: 65vh;
     }
 
-    .header-text-hidden {
+    .header-text-mobile {
         display: block;
     }
 
@@ -240,7 +237,7 @@
         text-align: center;
     }
 
-    .social-media-hidden {
+    .social-media-mobile {
         display: block;
     }
 
