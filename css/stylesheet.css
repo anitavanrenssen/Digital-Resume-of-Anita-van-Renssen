@@ -155,7 +155,7 @@ justify-content: end;
 
 .skill-box {
     background-color: #fff;
-    height: 160px;
+    height: 200px;
     box-shadow: 0 6px 12px rgb(0 0 0 / 10%);
 }
 
@@ -169,7 +169,7 @@ justify-content: end;
 }
 
 .skill-content {
-    padding: 32px 0 32px 0;
+    padding: 52px 0 32px 0;
 }
 
 .skill-list {
@@ -265,6 +265,7 @@ justify-content: end;
   .me-block {
       max-width: 1000px;
       padding: 48px;
+      border-bottom: 1px solid #cfbda4;
   }
 
   .me-text {
@@ -288,7 +289,7 @@ justify-content: end;
       border: none !important;
       color: #2a322d;
       box-shadow: 0 12px 24px rgb(0 0 0 / 20%);
-      
+      margin-top: 108px !important;
       overflow: hidden;
       border-radius: 0 5px 5px 5px;
   }
@@ -296,7 +297,6 @@ justify-content: end;
   .card-title {
       font-size: 36px;
   }
-
 
   .form-label {
       font-size: 16px;
@@ -328,6 +328,7 @@ justify-content: end;
   .contacts {
       display: flex;
       flex-direction: column;
+      margin-top: 108px !important;
   }
 
   .contact-link-first {
