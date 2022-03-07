@@ -1,3 +1,9 @@
+@media (max-width: 1461px) {
+    .location-education {
+        display: block;
+    }
+}
+
 
 @media (max-width: 1195px) {
 

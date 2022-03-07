@@ -146,7 +146,7 @@ justify-content: end;
 }
 
 .skills-block {
-    background-color: #e1e5e2;
+    background-color: rgba(106, 126, 112, 0.3);
 }
 
 .skills {
@@ -185,26 +185,28 @@ justify-content: end;
 /***** EXPERIENCE AND EDUCATION *****/
 
 .education-block {
-    background-color: rgb(106, 126, 112, 0.1);
+    background-color: rgba(106, 126, 112, 0.3);
 }
 
-.contentblock {
+.experience-block {
     display: flex;
     flex-direction: column;
     gap: 52px;
     max-width: 900px;
     margin: auto;
   }
-  
-  .contentblock ul {
-    padding-left: 20px;
-  }
 
-  .contentblock a {
+  .experience-block a {
       color: #777;
       text-decoration-thickness: 1px;
       text-underline-offset: 2px;
   }
+
+  .education-block a {
+    color: #777;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+}
 
   .heading-secondary {
     text-transform: uppercase;
@@ -219,6 +221,44 @@ justify-content: end;
       gap: 6px;
       margin-bottom: 16px;
   }
+
+  .location-education {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 16px;
+  }
+
+  .heading-secondary-education {
+    text-transform: uppercase;
+    padding-bottom: 16px;
+    letter-spacing: 4px;
+}
+  
+.heading-tertiary-date {
+    background:rgba(106, 126, 112, 0.3);
+    color: #353f38;
+    padding: 32px;
+}
+
+.content-section-experience {
+    border: 1px solid rgb(106, 126, 112, 0.3);
+    border-radius: 5px;
+} 
+
+.content-text {
+    padding: 54px;
+}
+
+.content-section-education {
+    background: #fff;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 10%);
+}
+
+.education-row {
+    max-width: 1600px;
+}
+
 
   /***** THIS IS ME *****/
 
@@ -248,7 +288,7 @@ justify-content: end;
       border: none !important;
       color: #2a322d;
       box-shadow: 0 12px 24px rgb(0 0 0 / 20%);
-      margin-bottom: 108px !important;
+      
       overflow: hidden;
       border-radius: 0 5px 5px 5px;
   }
@@ -319,19 +359,11 @@ justify-content: end;
     to {color:#353f38;}
 }
 
+/***** FOOTER *****/
 
+.footer {
+    text-align: center;
+    padding: 48px;
 
-.heading-tertiary-date {
-    background:#6a7e7063;
-    color: #353f38;
-    padding: 32px;
 }
 
-.content-section-experience {
-    border: 1px solid rgb(106, 126, 112, 0.3);
-    border-radius: 5px;
-} 
-
-.content-text {
-    padding: 54px;
-}
