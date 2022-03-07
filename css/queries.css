@@ -1,26 +1,29 @@
-@media (max-width: 1461px) {
+
+/* EXTRA LARGE DEVICES */
+
+@media (max-width: 1543px) {
     .location-education {
         display: block;
     }
-}
-
-
-@media (max-width: 1195px) {
 
     .header-name {
-        font-size: 84px;
-        max-width: 480px;
+        font-size: 64px;
+        max-width: 370px;
     }
 
     .header-hello, .header-intro {
         font-size: 20px;
         max-width: 400px;
     }
+}
+
+/* LARGE DEVICES */
+
+@media (max-width: 1200px) {
 
     .header {
         background-position: 80% 75%;
     }
-
 }
 
 /* MEDIUM DEVICES */
@@ -32,26 +35,13 @@
     }
 
     .header-name {
-        font-size: 74px;
-        max-width: 420px;
+        font-size: 48px;
+        max-width: 270px;
     }
 
     .header-hello, .header-intro {
-        font-size: 20px;
-        max-width: 400px;
-    }
-
-    /* .heading-about {
-        margin: 0 44px 0 44px;
-    } */
-
-    .contentblock {
-        padding: 0 32px 0 32px;
-        
-    }
-
-    .card {
-        max-width: 800px !important;
+        font-size: 18px;
+        max-width: 300px;
     }
 
     .carousel-control-next-override {
@@ -63,28 +53,15 @@
     }
 }
 
-@media (max-width: 943px) {
-
-    .header-name {
-        font-size: 68px;
-        max-width: 400px;
-    }
-
-    .header-hello, .header-intro {
-        font-size: 18px;
-    }
-
-}
-
 @media (max-width: 823px) {
 
     .header-name {
-        font-size: 60px;
-        max-width: 350px;
+        font-size: 42px;
+        max-width: 250px;
     }
 
     .header-hello, .header-intro {
-        max-width: 360px;
+        max-width: 200px;
     }
 
     .carousel-control-next-override {
@@ -105,14 +82,13 @@
     }
 }
     
-
 /* SMALL DEVICES */
 
 @media (max-width: 767px) {
 
     .navbar-collapse {
         background-color: rgba(255, 255, 255, 0.85);
-        backdrop-filter: blur(5px);
+        backdrop-filter: blur(10px);
         z-index: 2;
         padding: 32px;
         transition: all 0.5s ease-in-out;
@@ -122,34 +98,13 @@
         background-image: url(../images/coverphoto-medium.jpg);
     }
 
-    .header-name {
-        font-size: 54px;
-        max-width: 320px;
-    }
-
-    .header-hello, .header-intro {
-        font-size: 18px;
-        max-width: 310px;
-    }
-
     .about-section, .heading-about {
-        margin: 0 18px 0 18px;
         text-align: center;
     }
 
     .profile-img {
         width: 40%;
     }
-
-    .contentblock {
-        max-width: 600px;
-    }
-
-    .contentblock {
-        padding: 0 32px 0 32px;
-        
-    }
-
 
     .card-override {
         margin-top: 15px !important;
@@ -168,45 +123,30 @@
     .contact-link {
         border-radius: 5%;
     }
-
 }
 
 @media (max-width: 723px) {
 
     .header-name {
-        font-size: 48px;
-        max-width: 280px;
+        font-size: 32px;
+        max-width: 180px;
     }
 
     .header-hello, .header-intro {
         font-size: 16px;
-        max-width: 270px;
+        max-width: 150px;
     }
 
+    .carousel-control-next-override {
+        padding-left: 40px;
+    }
   
+    .carousel-control-prev-override {
+        padding-right: 40px;
+    }
 }
 
-    @media (max-width: 663px) {
-
-        .header-name {
-            font-size: 44px;
-            max-width: 260px;
-        }
-    
-        .header-hello, .header-intro {
-            max-width: 220px;
-        }
-
-        .carousel-control-next-override {
-            padding-left: 40px;
-        }
-      
-        .carousel-control-prev-override {
-            padding-right: 40px;
-        }
-    }
-
-/* EXTRA SMALL DEVICES (PORTRAIT TABLETS/ LARGE PHONES) */
+/* EXTRA SMALL DEVICES */
 
 @media (max-width: 575px) {
 
@@ -246,18 +186,12 @@
     }
 
     .skill-list {
-        margin-top: 32px;
+        margin-top: 48px;
     }
 
     .content-section {
         display: block;
     }
-
-.contentblock {
-    padding: 0 32px 0 32px;
-    
-}
-
 }
 
 @media (max-width: 440px) {
@@ -269,7 +203,6 @@
     .carousel-control-prev-override {
         padding-right: 20px;
     }
-    
 }
 
 @media (max-width: 400px) {
