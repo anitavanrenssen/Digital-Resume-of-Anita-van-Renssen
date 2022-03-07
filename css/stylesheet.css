@@ -35,7 +35,7 @@ justify-content: end;
 /***** HEADER *****/
 
 .header {
-    background-image: url(/images/coverphoto.jpg);
+    background-image: url(../images/coverphoto.jpg);
     background-color: #6a7e70;
     background-size: cover;
     background-repeat: no-repeat;
@@ -286,7 +286,7 @@ justify-content: end;
   }
 
   .contact-img-block {
-    background-image: url("/images/coffee.jpg");
+    background-image: url(../images/coffee.jpg);
     background-size: cover;
     background-position: 60%;
   }

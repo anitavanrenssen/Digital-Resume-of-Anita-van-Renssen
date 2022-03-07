@@ -104,7 +104,7 @@
     }
 
     .header {
-        background-image: url(/images/coverphoto-medium.jpg);
+        background-image: url(../images/coverphoto-medium.jpg);
     }
 
     .header-name {
@@ -196,7 +196,7 @@
     }
 
     .header {
-        background-image: url(/images/coverphoto-small.jpg);
+        background-image: url(../images/coverphoto-small.jpg);
         background-position: center;
         height: 65vh;
     }
