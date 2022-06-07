@@ -1,214 +1,209 @@
-
 /* EXTRA LARGE DEVICES */
 
 @media (max-width: 1543px) {
-    .location-education {
-        display: block;
-    }
+  .location-education {
+    display: block;
+  }
 
-    .header-name {
-        font-size: 64px;
-        max-width: 370px;
-    }
+  .header-name {
+    font-size: 64px;
+    max-width: 370px;
+  }
 
-    .header-hello, .header-intro {
-        font-size: 20px;
-        max-width: 400px;
-    }
+  .header-hello,
+  .header-intro {
+    font-size: 20px;
+    max-width: 400px;
+  }
 }
 
 /* LARGE DEVICES */
 
 @media (max-width: 1200px) {
-
-    .header {
-        background-position: 80% 75%;
-    }
+  .header {
+    background-position: 80% 75%;
+  }
 }
 
 /* MEDIUM DEVICES */
 
 @media (max-width: 991px) {
-
-    .nav-link {
+  .nav-link {
     font-size: 14px;
-    }
+  }
 
-    .header-name {
-        font-size: 48px;
-        max-width: 270px;
-    }
+  .header-name {
+    font-size: 48px;
+    max-width: 270px;
+  }
 
-    .header-hello, .header-intro {
-        font-size: 18px;
-        max-width: 300px;
-    }
+  .header-hello,
+  .header-intro {
+    font-size: 18px;
+    max-width: 300px;
+  }
 
-    .carousel-control-next-override {
-        padding-left: 90px;
-    }
-  
-    .carousel-control-prev-override {
-        padding-right: 90px;
-    }
+  .skills-sec {
+    text-align: center;
+  }
+
+  .skill-list {
+    margin-top: 64px;
+  }
+
+  .carousel-control-next-override {
+    padding-left: 90px;
+  }
+
+  .carousel-control-prev-override {
+    padding-right: 90px;
+  }
 }
 
 @media (max-width: 823px) {
+  .header-name {
+    font-size: 42px;
+    max-width: 250px;
+  }
 
-    .header-name {
-        font-size: 42px;
-        max-width: 250px;
-    }
+  .header-hello,
+  .header-intro {
+    max-width: 200px;
+  }
 
-    .header-hello, .header-intro {
-        max-width: 200px;
-    }
+  .carousel-control-next-override {
+    padding-left: 70px;
+  }
 
-    .carousel-control-next-override {
-        padding-left: 70px;
-    }
-  
-    .carousel-control-prev-override {
-        padding-right: 70px;
-    }
-
-    .skills-section {
-        display: block;
-        text-align: center;
-    }
-
-    .skill-list {
-        margin-top: 64px;
-    }
+  .carousel-control-prev-override {
+    padding-right: 70px;
+  }
 }
-    
+
 /* SMALL DEVICES */
 
 @media (max-width: 767px) {
+  .navbar-collapse {
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
+    z-index: 2;
+    padding: 32px;
+    transition: all 0.5s ease-in-out;
+  }
 
-    .navbar-collapse {
-        background-color: rgba(255, 255, 255, 0.85);
-        backdrop-filter: blur(10px);
-        z-index: 2;
-        padding: 32px;
-        transition: all 0.5s ease-in-out;
-    }
+  .header {
+    background-image: url(../images/coverphoto-medium.jpg);
+  }
 
-    .header {
-        background-image: url(../images/coverphoto-medium.jpg);
-    }
+  .about-section,
+  .heading-about {
+    text-align: center;
+  }
 
-    .about-section, .heading-about {
-        text-align: center;
-    }
+  .profile-img {
+    width: 40%;
+  }
 
-    .profile-img {
-        width: 40%;
-    }
+  .card-override {
+    margin-top: 15px !important;
+  }
 
-    .card-override {
-        margin-top: 15px !important;
-    }
+  .contact-section {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .contact-section {
-        flex-direction: column;
-        align-items: center;
-    }
+  .contacts {
+    display: inline;
+    margin-bottom: 0;
+  }
 
-    .contacts {
-        display: inline;
-        margin-bottom: 0;
-    }
-
-    .contact-link {
-        border-radius: 5%;
-    }
+  .contact-link {
+    border-radius: 5%;
+  }
 }
 
 @media (max-width: 723px) {
+  .header-name {
+    font-size: 32px;
+    max-width: 180px;
+  }
 
-    .header-name {
-        font-size: 32px;
-        max-width: 180px;
-    }
+  .header-hello,
+  .header-intro {
+    font-size: 16px;
+    max-width: 150px;
+  }
 
-    .header-hello, .header-intro {
-        font-size: 16px;
-        max-width: 150px;
-    }
+  .carousel-control-next-override {
+    padding-left: 40px;
+  }
 
-    .carousel-control-next-override {
-        padding-left: 40px;
-    }
-  
-    .carousel-control-prev-override {
-        padding-right: 40px;
-    }
+  .carousel-control-prev-override {
+    padding-right: 40px;
+  }
 }
 
 /* EXTRA SMALL DEVICES */
 
 @media (max-width: 575px) {
+  body {
+    font-size: 16px;
+  }
 
-    body {
-        font-size: 16px;
-    }
+  .header {
+    background-image: url(../images/coverphoto-small.jpg);
+    background-position: center;
+    height: 65vh;
+  }
 
-    .header {
-        background-image: url(../images/coverphoto-small.jpg);
-        background-position: center;
-        height: 65vh;
-    }
+  .header-text-mobile {
+    display: block;
+  }
 
-    .header-text-mobile {
-        display: block;
-    }
+  .header-text {
+    display: none;
+  }
 
-    .header-text {
-        display: none;
-    }
+  .profile-img {
+    width: 50%;
+  }
 
-    .profile-img {
-        width: 50%;
-    }
+  .about-section,
+  .heading-about {
+    margin: 0 18px 0 18px;
+    text-align: center;
+  }
 
-    .about-section, .heading-about {
-        margin: 0 18px 0 18px;
-        text-align: center;
-    }
+  .social-media-mobile {
+    display: block;
+  }
 
-    .social-media-mobile {
-        display: block;
-    }
+  .social-media {
+    display: none;
+  }
 
-    .social-media {
-        display: none;
-    }
+  .skill-list {
+    margin-top: 48px;
+  }
 
-    .skill-list {
-        margin-top: 48px;
-    }
-
-    .content-section {
-        display: block;
-    }
+  .content-section {
+    display: block;
+  }
 }
 
 @media (max-width: 440px) {
+  .carousel-control-next-override {
+    padding-left: 20px;
+  }
 
-    .carousel-control-next-override {
-        padding-left: 20px;
-    }
-  
-    .carousel-control-prev-override {
-        padding-right: 20px;
-    }
+  .carousel-control-prev-override {
+    padding-right: 20px;
+  }
 }
 
 @media (max-width: 400px) {
-
-    .content-text-muted {
-        display: block;
-    }
+  .content-text-muted {
+    display: block;
+  }
 }
-
