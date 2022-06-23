@@ -202,6 +202,94 @@ body {
   padding-right: 12px;
 }
 
+/***** PROJECTS *****/
+
+.project-row {
+  padding: 80px 0;
+  border-bottom: 1px solid #cfbda4;
+}
+
+.project-img-box {
+  width: 700px;
+  /* box-shadow: 0 15px 30px 7px rgb(0 0 0 / 5%); */
+}
+
+@keyframes imghover {
+  from {
+    filter: grayscale(100%);
+  }
+  to {
+    filter: grayscale(0);
+  }
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: top;
+  opacity: 0.9;
+  filter: grayscale(100%);
+}
+
+.project-img:hover {
+  cursor: pointer;
+  animation-name: imghover;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.heading-tertiary {
+  letter-spacing: 1px;
+}
+
+.project-languages {
+  list-style-type: none;
+  gap: 6px;
+  padding-left: 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.project-languages li {
+  background-color: rgb(153, 153, 153, 0.1);
+  padding: 3px 12px;
+  border-radius: 5px;
+}
+
+@keyframes btnhover {
+  from {
+    background-color: #fff;
+    color: #666;
+    border: 1px solid rgb(119, 119, 119, 0.7);
+  }
+  to {
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #444;
+  }
+}
+
+.visit-btn {
+  padding: 0;
+}
+
+.visit-btn a {
+  padding: 14px 28px;
+  background-color: #fff;
+  letter-spacing: 2px;
+  color: #666;
+  border: 1px solid rgb(119, 119, 119, 0.7);
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.visit-btn a:hover {
+  animation-name: btnhover;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
 /***** EXPERIENCE *****/
 
 .experience-block {
