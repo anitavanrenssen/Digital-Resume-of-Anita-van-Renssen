@@ -1113,11 +1113,16 @@
                   I would love to hear from you!
                 </h2>
 
-                <form class="row g-3">
+                <form
+                  class="row g-3"
+                  action="https://formspree.io/f/mrgjvkol"
+                  method="POST"
+                >
                   <div class="col-md-6">
                     <label for="inputName" class="form-label">Name</label>
                     <input
                       type="text"
+                      name="Name"
                       class="form-control"
                       id="inputName"
                       placeholder="John"
@@ -1129,6 +1134,7 @@
                     <label for="inputSurname" class="form-label">Surname</label>
                     <input
                       type="text"
+                      name="Surname"
                       class="form-control"
                       id="inputSurname"
                       placeholder="Smith"
@@ -1142,6 +1148,7 @@
                     >
                     <input
                       type="email"
+                      name="Email"
                       class="form-control"
                       id="inputEmail4"
                       placeholder="me@example.com"
@@ -1153,10 +1160,11 @@
                     <label for="inputSubject" class="form-label">Subject</label>
                     <input
                       type="text"
+                      name="Subject"
+                      name="Subject"
                       class="form-control"
                       id="inputSubject"
                       placeholder="RE: Job application"
-                      required
                     />
                   </div>
 
@@ -1164,6 +1172,7 @@
                     <label for="inputMessage" class="form-label">Message</label>
                     <textarea
                       class="form-control"
+                      name="Message"
                       id="inputMessage"
                       rows="2"
                       placeholder="Type your message here"
