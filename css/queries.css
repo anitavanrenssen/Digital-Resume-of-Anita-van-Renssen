@@ -43,20 +43,12 @@
     max-width: 300px;
   }
 
-  .skills-sec {
+  .skills-section {
     text-align: center;
   }
 
   .skill-list {
     margin-top: 64px;
-  }
-
-  .carousel-control-next-override {
-    padding-left: 90px;
-  }
-
-  .carousel-control-prev-override {
-    padding-right: 90px;
   }
 }
 
@@ -69,14 +61,6 @@
   .header-hello,
   .header-intro {
     max-width: 200px;
-  }
-
-  .carousel-control-next-override {
-    padding-left: 70px;
-  }
-
-  .carousel-control-prev-override {
-    padding-right: 70px;
   }
 }
 
@@ -134,14 +118,6 @@
     font-size: 16px;
     max-width: 150px;
   }
-
-  .carousel-control-next-override {
-    padding-left: 40px;
-  }
-
-  .carousel-control-prev-override {
-    padding-right: 40px;
-  }
 }
 
 /* EXTRA SMALL DEVICES */
@@ -163,6 +139,10 @@
 
   .header-text {
     display: none;
+  }
+
+  .footer-icons {
+    font-size: 20px;
   }
 
   .profile-img {
@@ -192,18 +172,40 @@
   }
 }
 
-@media (max-width: 440px) {
-  .carousel-control-next-override {
-    padding-left: 20px;
+@media (max-width: 456px) {
+  .visitsite-btn {
+    padding-bottom: 32px;
   }
 
-  .carousel-control-prev-override {
-    padding-right: 20px;
+  .project-languages {
+    display: block !important;
+  }
+
+  .project-languages li {
+    margin-bottom: 8px;
   }
 }
 
 @media (max-width: 400px) {
   .content-text-muted {
     display: block;
+  }
+
+  .skill-logo {
+    width: 48px;
+  }
+
+  .skill-name {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 304px) {
+  .visit-btn a {
+    padding: 8px 16px;
+  }
+
+  .visitsite-btn {
+    padding-bottom: 18px;
   }
 }
