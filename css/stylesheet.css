@@ -281,6 +281,25 @@ body {
 
 /***** CONTACT *****/
 
+.resume-section {
+  display: flex;
+  justify-content: center;
+}
+
+.resume-btn a {
+  background-color: rgba(106, 126, 112, 0.3);
+  border: none;
+  padding: 14px 28px;
+  letter-spacing: 2px;
+  color: #666;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.resume-btn a:hover {
+  background-color: rgba(106, 126, 112, 0.5);
+}
+
 .contact-section {
   display: flex;
   justify-content: center;
